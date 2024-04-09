@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+    background: url("../../public/images/banner.jpeg") no-repeat center center/cover;
+    height: calc(100vh - 64px);
+    padding: 2rem;
+}
